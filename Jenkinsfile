@@ -7,3 +7,4 @@ node('built-in')
     stage('Continuous Build_Master') 
 	{
     sh label: '', script: 'mvn package'
+}
